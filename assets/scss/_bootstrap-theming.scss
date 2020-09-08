@@ -95,3 +95,8 @@
 .thumbnail {
     transition: background-color 0.5s;
 }
+
+section {
+    position: relative;
+    overflow: hidden;
+}

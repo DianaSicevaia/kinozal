@@ -10,8 +10,16 @@
     margin-bottom: $gap * 4;
 }
 
-.new-films {
-    &__row {
+.new-films, .top-week {
+    &-title::after {
+        position: absolute;
+        width: 100%;
+        margin: 0.85em 0 0 15px;
+        content: "";
+        border-bottom: 3px solid rgba($color-accent, 0.7);
+    }
+
+    &-row {
         margin-left: -$gap / 2;
         margin-right: -$gap / 2;
         margin-bottom: -$gap;
@@ -42,5 +50,20 @@
             text-align: center;
             transition: 0.5s;
         }
+
+        &__image {
+            width: 100%;
+        }
+    }
+}
+
+.top-week {
+    &-title::before {
+        position: absolute;
+        content: "";
+        width: 30px;
+        left: 0;
+        margin: 0.25em 0 0 0;
+        border-bottom: 3px solid rgba($color-accent, 0.7);
     }
 }
