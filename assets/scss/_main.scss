@@ -21,8 +21,26 @@
         padding-left: $gap / 2;
         margin-bottom: $gap;
 
-        &__thubnail {
+        &:hover h3{
+            color: $color-light;
+        }
+
+        &__thumbnail {
             margin-bottom: 0;
+            
+            &:hover{
+                border-color: $color-accent;
+                background-color: $color-accent;
+            }
+        }
+
+        &__title {
+            @include text-shortener;
+            margin: 0;
+            font-size: 1rem;
+            font-weight: bold;
+            text-align: center;
+            transition: 0.5s;
         }
     }
 }

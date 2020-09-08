@@ -141,8 +141,32 @@ h2 {
   margin-bottom: 15px;
 }
 
-.new-films-item__thubnail {
+.new-films-item:hover h3 {
+  color: #ffffff;
+}
+
+.new-films-item__thumbnail {
   margin-bottom: 0;
+}
+
+.new-films-item__thumbnail:hover {
+  border-color: #df8a13;
+  background-color: #df8a13;
+}
+
+.new-films-item__title {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .left-sidebar .panel:last-of-type {
