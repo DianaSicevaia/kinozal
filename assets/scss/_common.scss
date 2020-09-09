@@ -32,7 +32,7 @@ h1{
     }
 
     &::after {
-        @extend %after;
+        @extend %after-line;
     }
 }
 
@@ -59,7 +59,7 @@ h2 {
     }
 
     &::after {
-        @extend %after;
+        @extend %after-line;
     }
 }
 

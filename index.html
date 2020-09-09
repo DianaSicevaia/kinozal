@@ -62,8 +62,9 @@
     <main class="main col-lg-9 col-lg-push-3 col-md-8 col-md-push-4">
       
       <section class="site-search panel panel-info hidden-lg hidden-md">
-        <!-- //TODO: заголовок через h1 -->
-        <div class="panel-heading">Поиск</div>
+        <div class="panel-heading">
+          <h4 class="panel-heading-title">Поиск</h4>
+        </div>
         <div class="panel-body">
           <form action="search">
             <div class="input-group input-group-lg">
@@ -79,13 +80,14 @@
       </section>
       
       <section class="user-login panel panel-info hidden-lg hidden-md">
-        <!-- //TODO: заголовок через h2 -->
-        <div class="panel-heading">Пользователь</div>
+        <div class="panel-heading">
+          <h4 class="panel-heading-title">Пользователь</h4>
+        </div>
         <div class="panel-body">
           <div>
             <ul class="user-login__tabs nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#user-login-main" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-log-in" title="Вход"></span></a></li>
-              <li role="presentation"><a href="#user-registration-main" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user" title="Регистрация"></span></a></li>
+              <li role="presentation" class="active"><a href="#user-login-main" aria-controls="user-login-main" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-log-in" title="Вход"></span></a></li>
+              <li role="presentation"><a href="#user-registration-main" aria-controls="user-registration-main" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user" title="Регистрация"></span></a></li>
             </ul>
 
             <div class="user-login__content tab-content">
@@ -503,7 +505,7 @@
           <form action="search">
             <div class="input-group input-group-lg">
               <input class="form-control" type="search" placeholder="Поиск по сайту">
-              <span class="input-group-btn" id="basic-addon1">
+              <span class="input-group-btn" id="basic-addon2">
                 <button class="btn btn-default" type="submit">
                   <span class="glyphicon glyphicon-search"></span>
                 </button>
@@ -518,8 +520,8 @@
         <div class="panel-body">
           <div>
             <ul class="user-login__tabs nav nav-tabs" role="tablist">
-              <li role="presentation" class="active"><a href="#user-login-sidebar" aria-controls="home" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-log-in" title="Вход"></span></a></li>
-              <li role="presentation"><a href="#user-registration-sidebar" aria-controls="profile" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user" title="Регистрация"></span></a></li>
+              <li role="presentation" class="active"><a href="#user-login-sidebar" aria-controls="user-login-sidebar" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-log-in" title="Вход"></span></a></li>
+              <li role="presentation"><a href="#user-registration-sidebar" aria-controls="user-registration-sidebar" role="tab" data-toggle="tab"><span class="glyphicon glyphicon-user" title="Регистрация"></span></a></li>
             </ul>
 
             <div class="user-login__content tab-content">
