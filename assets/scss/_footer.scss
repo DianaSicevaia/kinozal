@@ -1,0 +1,19 @@
+.footer {
+    & ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    & a {
+        color: rgba($color-gray, 0.4);
+
+        &:hover {
+            color: $color-light;
+        }
+    }
+
+    &-fifth {
+        text-align: center;
+        margin: 20px 0;
+    }
+}

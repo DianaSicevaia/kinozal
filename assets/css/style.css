@@ -82,6 +82,12 @@ section {
   overflow: hidden;
 }
 
+.footer {
+  padding-top: 45px;
+  background-color: #232323;
+  color: #ffffff;
+}
+
 html {
   font-size: 16px;
   overflow: scroll;
@@ -219,7 +225,7 @@ h2::before {
 }
 
 .film-news-item:hover .thumbnail {
-  background-color: #df8a13;
+  background-color: rgba(223, 138, 19, 0.7);
 }
 
 .film-news-item:hover h3 > a {
@@ -367,6 +373,24 @@ h2::before {
   -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer a {
+  color: rgba(221, 221, 221, 0.4);
+}
+
+.footer a:hover {
+  color: #ffffff;
+}
+
+.footer-fifth {
+  text-align: center;
+  margin: 20px 0;
 }
 
 @media (min-width: 576px) {
